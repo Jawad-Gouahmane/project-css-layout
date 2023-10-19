@@ -34,7 +34,7 @@ span{ color: #ababab;}
  .submenu li a{ text-decoration: none;}
  .submenu li a:hover{ color: red;}
 .submenu{ position: absolute;
-          top: 42px;
+          top: 25px;
           right: -30px;
           width: 220px;
          background-color:white ;
@@ -46,6 +46,100 @@ span{ color: #ababab;}
 
 .menu:hover .submenu{ display: block;}
 
+.little-logo{ color: #00b39b ;
+              text-align: center;
+              margin-top: 60px; }
+
+.little-logo h2{ margin-top: 30px;
+                font-family: Helvetica;
+                font-weight: lighter;
+                font-size: 35px;}
+                
+.text{ margin-top: 70px;
+       display: flex;
+       color: gray ;
+       font-family: Helvetica ; 
+      text-align: center;
+     line-height: 1.8; }   
+ 
+
+ .para1{ display: flex;
+        align-items: center; 
+    text-align: justify;
+position: absolute;
+     left: 180px;}
+
+ .para2{ display: flex;
+        align-items: flex-end; 
+     text-align: justify;
+     position: absolute;
+     right: 180px;}       
+ 
+ .card  { color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:50px ;
+        margin-top: 170px;
+        }
+ 
+ .imgcard { position: relative;
+   right: 90px; }          
+ 
+ .card-patients{ background-color:#00b39b;
+                width: 280px;
+                height: 320px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                padding: 30px 15px;
+             border-radius: 20px;}
+
+ .card-doctors{ background-color:rgb(28, 105, 248);
+                width: 280px;
+                height: 320px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                padding: 30px 15px;
+                text-align: justify;
+                border-radius: 20px;}
+
+ .card-clinic{ background-color:rgb(45, 45, 45);
+                width: 280px;
+                height: 320px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                padding: 30px 15px;
+                text-align: justify;
+                border-radius: 20px;}
+
+.the-title{ font-weight: bold;
+            color: white; 
+            font-size: 1.7rem; 
+             margin-top: -20px;
+             text-align: justify;
+             padding-right: 70px }
+
+.paracard{ font-size: 25px;
+           margin-top: -20px; }
+
+select{ margin-top: 30px;
+        margin-right: 90px;
+    border: none;
+    background-color: transparent;
+color: white; 
+font-size: 20px;
+text-decoration: underline;   } 
+
+.selectclinic {margin-left: 90px;; }
+
+.clinic2{ margin-top:10px ;
+            }
 
 
    
